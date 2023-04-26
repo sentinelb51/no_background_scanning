@@ -29,3 +29,6 @@ Each key determines whether the wireless adapter should disable scanning when th
 
 ## Compromises
 It is advisable to do experimenting with these values to fit your environment. Setting all of these to 1 will prioritise network performance over the adapter's ability to detect available networks. Conversely, since it limits the network adapter's ability to find better access points (AP), network performance may be negatively affected when there is a less congested AP available.
+
+## Applying changes
+Once the registry keys have been applied, changes will only take effect after a system restart.
